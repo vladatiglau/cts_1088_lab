@@ -9,4 +9,12 @@ Code Review
 
 - elimina valorile predefinite din functie
 
-- datele de intrare NU sunt validare
+- datele de intrare NU sunt validate
+
+2. Single Responsability si KISS
+- metoda calculeaza prea multe valori intermediare
+- se repeta o parte din orelucrari
+
+3. SOLID
+- eliminare switch prin tratarea primul caz in mod generic
+- eliminare dependente legate de validarea datelor si prelucrarea discount-ului 
