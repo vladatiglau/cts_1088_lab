@@ -10,5 +10,12 @@ public class DecoratorArmura extends DecoratorErouAbstract {
 		
 		
 	}
+	
+	public void esteLovit(int puncte) {
+		int punctePierdute = puncte - nivelArmura;
+		if(punctePierdute>0) {
+			this.erou.esteLovit(punctePierdute);
+		}
+	}
 
 }

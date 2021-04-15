@@ -7,7 +7,6 @@ public abstract class DecoratorErouAbstract extends SuperErou {
 	public DecoratorErouAbstract(SuperErou erou) {
 		super(erou.nume, erou.puncteViata);
 		this.erou = erou;
-		// TODO Auto-generated constructor stub
 	}
 	
 	public void alearga() {
@@ -20,5 +19,6 @@ public abstract class DecoratorErouAbstract extends SuperErou {
 	public void seVindeca(int puncte) {
 		this.erou.seVindeca(puncte);
 		}
+	
 	
 }
